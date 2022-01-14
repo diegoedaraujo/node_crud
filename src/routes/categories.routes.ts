@@ -1,9 +1,9 @@
 import { Router } from "express";
-import { CreateCategoryController } from "../controllers/CreateCategoryController";
-import { DeleteCategoryController } from "../controllers/DeleteCategoryController";
-import { GetAllCategoriesController } from "../controllers/GetAllCategoriesController";
-import { GetCategoriesByIdController } from "../controllers/GetCategoriesByIdController";
-import { UpdateCategoryController } from "../controllers/UpdateCategoryController";
+import { CreateCategoryController } from "../modules/categories/controllers/CreateCategoryController";
+import { DeleteCategoryController } from "../modules/categories/controllers/DeleteCategoryController";
+import { GetAllCategoriesController } from "../modules/categories/controllers/GetAllCategoriesController";
+import { GetCategoriesByIdController } from "../modules/categories/controllers/GetCategoriesByIdController";
+import { UpdateCategoryController } from "../modules/categories/controllers/UpdateCategoryController";
 
 const categoriesRoutes = Router();
 

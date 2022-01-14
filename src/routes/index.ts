@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { CreateVideoController } from "../controllers/CreateVideoController";
-import { GetAllVideosController } from "../controllers/GetAllVideosController";
+import { CreateVideoController } from "../modules/videos/controllers/CreateVideoController";
+import { GetAllVideosController } from "../modules/videos/controllers/GetAllVideosController";
 import { categoriesRoutes } from "./categories.routes";
 
 const routes = Router();
